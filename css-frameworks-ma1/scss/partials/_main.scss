@@ -1,0 +1,31 @@
+// Styling for all pages
+// Navigation
+.navbar-collapse{
+  justify-content: flex-end;
+}
+//sections
+section{
+  margin-bottom: $spacer*14;
+}
+// Cards
+.card{
+  border: none;
+  &.feature-1{
+    background-color: $primary !important;
+    border: $card-border-feature-1;
+  }
+  &.feature-2{
+    background-color: $white !important;
+    border: $card-border-feature-2;
+  }
+}
+// Footer
+footer{
+  background-color: $light;
+  color: $navbar-light-color;
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
